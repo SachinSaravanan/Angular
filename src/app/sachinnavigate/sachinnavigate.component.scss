@@ -1,0 +1,108 @@
+
+body{
+  
+  margin:0px;
+    
+}
+section{
+display: inline-block;
+
+}
+
+h1{font-family:red serif;
+  font-size: 60PX;
+  color:red serif;
+  padding: 0px;
+  margin: 0px;
+  text-shadow: 2px 2px 5px red;
+  display:block;
+}
+ ul{list-style-type: none;
+   margin: 0px;
+   padding:0;
+   overflow: hidden;
+ }
+   li{
+     float: left; 
+     font-size: 20px;
+   }
+   li a{
+     display:block;
+     padding: 14px 16px;
+     color:rgb(223, 23, 23);
+     text-align: center;
+     text-decoration: none;
+   }
+   li a:hover{    
+      color:rgb(196, 7, 7);
+   }
+   input{
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    float: left;
+  
+    }
+
+    nav{background-color: black;
+    display: block;
+  height: 43px;
+text-align: center;}  
+
+    form{
+      float:right;
+      border-color: aqua;
+    }
+          
+
+    .sorry{
+      
+        border: 1px solid rgb(19, 4, 4);
+        border-radius: 5px;
+        
+    
+    }
+
+   .sachin{
+  
+    display: inline-block;
+   }
+     .sachin ul{
+      list-style-type: none;
+      margin:0PX;
+      padding:0px ;
+      width: 140px;
+      overflow:hidden;
+      height: 500px;
+      background-color:orange;
+     }
+     
+     .sachin li a{
+      display:block;
+      color:rgb(5, 4, 4);
+      padding:14px,16px;
+      text-align: center;
+      text-decoration: none;
+
+     }
+      
+    
+    .sachin li{float:left;
+              font-size: 15px;} 
+     .sachin a:hover{    
+      color:rgb(238, 65, 65);
+   }
+  
+    
+
+  
+ 
+
+
+
+
+
+
+      
+
+  

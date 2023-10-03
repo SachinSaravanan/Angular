@@ -1,0 +1,45 @@
+ul{list-style-type: none;
+    margin: 0px;
+    padding:0;
+    overflow: hidden;
+  }
+    li{
+      float: left; 
+      font-size: 20px;
+    }
+    li a{
+      display:block;
+      padding: 14px 16px;
+      color:rgb(223, 23, 23);
+      text-align: center;
+      text-decoration: none;
+    }
+    li a:hover{    
+       color:rgb(196, 7, 7);
+    }
+    input{
+     height: 35px;
+     background-color: white;
+     border-radius: 5px;
+     float: left;
+   
+     }
+ 
+     nav{background-color: black;
+     display: block;
+   height: 43px;
+ text-align: center;}  
+ 
+     form{
+       float:right;
+       border-color: aqua;
+     }
+           
+ 
+     .sorry{
+       
+         border: 1px solid rgb(19, 4, 4);
+         border-radius: 5px;
+         
+     
+     }
