@@ -4,13 +4,15 @@ import { HeaderComponent } from './header/header.component';
 import { NavigateComponent } from './navigate/navigate.component';
 import { SachinnavigateComponent } from './sachinnavigate/sachinnavigate.component';
 import { ChikenComponent } from './chiken/chiken.component';
+import { MuttonComponent } from './mutton/mutton.component';
+import { DominosComponent } from './dominos/dominos.component';
 
 const routes: Routes = [
 
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HeaderComponent },
+  { path: 'dominos', component: DominosComponent },
   { path: 'navigate', component: NavigateComponent },
-  { path: 'sachin', component: SachinnavigateComponent },
+  { path: 'mutton', component: MuttonComponent },
   { path: 'chicken', component:ChikenComponent},
 ];
 

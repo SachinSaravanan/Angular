@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { NavigateComponent } from './navigate/navigate.component';
 import { SachinnavigateComponent } from './sachinnavigate/sachinnavigate.component';
 import { ChikenComponent } from './chiken/chiken.component';
+import { MuttonComponent } from './mutton/mutton.component';
+import { DominosComponent } from './dominos/dominos.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { ChikenComponent } from './chiken/chiken.component';
     NavigateComponent,
     SachinnavigateComponent,
     ChikenComponent,
+    MuttonComponent,
+    DominosComponent,
 
   ],
   imports: [
