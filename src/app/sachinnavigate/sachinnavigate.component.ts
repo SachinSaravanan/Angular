@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./sachinnavigate.component.scss']
 })
 export class SachinnavigateComponent {
+  sachinelement = false;
+  onclick(){
+    this.sachinelement=!this.sachinelement;
+  }
 
 }
